@@ -7,7 +7,7 @@ COPY package*.json ./
 RUN npm install
 # Copy the application code
 COPY . .
-# Expose the app's port TEST
+# Expose the app's port TESTttttt
 EXPOSE 3000
 # Command to run the app
 CMD ["node", "server.js"]
